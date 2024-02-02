@@ -1,8 +1,4 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- The React app is a simple interface for generating SQL queries based on natural language descriptions.
+- The App component is the main component containing a form with an input field for the query description and a button to trigger the query generation.
+- The form submits data to the server using the generateQuery function, which makes a POST request to http://localhost:3000/generate.
+- The generated SQL query is logged to the console.
