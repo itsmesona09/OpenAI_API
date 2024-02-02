@@ -39,7 +39,7 @@ Visualization:
   
 ## Run the Application:
 - Start the server by running npm start in the server directory.
-- Run the React app with npm start in the client directory.
+- Run the React app with npm run dev in the client directory.
   
 ## Usage:
 - Open the application in a web browser.
