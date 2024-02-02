@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(to right, #2933b2, #017401);
+}
+
+h3 {
+    font-size: 70px;
+    color: rgb(169, 237, 221);
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.styles-main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; 
+}
+
+form {
+    margin-top: 10px; 
+}
+input[name='query-description']{
+    width:400px;
+    height:30px;
+    margin-top: 20px;
+}
+
+input[name='query-description'],
+input[name='query-generation'] {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin:30px;
+}
+
+input[name='query-generation'] {
+    background-color: rgb(2, 67, 33);
+    color: aliceblue;
+    width:auto;
+}
+
+pre {
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    font-family: 'Rubik', sans-serif;
+    max-width: 600px;
+}
